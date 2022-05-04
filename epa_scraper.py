@@ -7,7 +7,7 @@ from time import sleep
 import csv
 
 # Path to csv file that will store data 
-file_path = '/Users/williamlanghorne/Desktop/web_scrapers/outputs/epa.csv'
+file_path = './outputs/epa.csv'
 
 # Add header for the first row of data
 headers = ['Facility name', 'Chemical', 'Percentage spike', 'Spike duration']
